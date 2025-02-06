@@ -1,4 +1,4 @@
-package com.example.tutorialmod;
+package com.example.danymod;
 
 import java.util.List;
 import java.util.Set;

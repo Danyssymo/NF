@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "danymod:block/water_gen_block"
+    }
+  }
+}

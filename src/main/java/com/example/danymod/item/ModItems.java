@@ -1,6 +1,6 @@
-package com.example.tutorialmod.item;
+package com.example.danymod.item;
 
-import com.example.tutorialmod.MyMod;
+import com.example.danymod.MyMod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

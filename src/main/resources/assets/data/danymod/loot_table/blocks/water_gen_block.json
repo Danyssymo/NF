@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorialmod:water_gen_block"
+          "name": "danymod:water_gen_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tutorialmod:blocks/water_gen_block"
+  "random_sequence": "danymod:blocks/water_gen_block"
 }

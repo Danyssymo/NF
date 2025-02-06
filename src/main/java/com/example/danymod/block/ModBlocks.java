@@ -1,20 +1,16 @@
-package com.example.tutorialmod.block;
+package com.example.danymod.block;
 
-import com.example.tutorialmod.MyMod;
-import com.example.tutorialmod.item.ModItems;
+import com.example.danymod.MyMod;
+import com.example.danymod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.storage.loot.LootContext;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import java.util.List;
 import java.util.function.Supplier;
 
 public class ModBlocks {

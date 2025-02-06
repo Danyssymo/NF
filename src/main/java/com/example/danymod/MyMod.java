@@ -1,7 +1,7 @@
-package com.example.tutorialmod;
+package com.example.danymod;
 
-import com.example.tutorialmod.block.ModBlocks;
-import com.example.tutorialmod.item.ModItems;
+import com.example.danymod.block.ModBlocks;
+import com.example.danymod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -27,7 +27,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 public class MyMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "tutorialmod";
+    public static final String MOD_ID = "danymod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -38,12 +38,10 @@ public class MyMod
 
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
-        ModMenuTypes.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::clientSetup);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

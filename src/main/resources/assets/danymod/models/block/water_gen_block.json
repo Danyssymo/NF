@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "danymod:block/inactive_down",
+    "up": "danymod:block/inactive_up",
+    "north": "danymod:block/inactive_south",
+    "south": "danymod:block/inactive_south",
+    "east": "danymod:block/inactive_east",
+    "west": "danymod:block/inactive_east"
+  }
+}
